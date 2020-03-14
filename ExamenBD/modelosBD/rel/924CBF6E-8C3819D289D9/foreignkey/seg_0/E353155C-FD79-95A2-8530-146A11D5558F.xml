@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E353155C-FD79-95A2-8530-146A11D5558F" containerWithKeyObject="CA547CAF-4EC5-5F9D-94E4-2F50E98D276E" localFKIndex="11E51BC2-4267-0450-63DA-0149ECBE8B71" name="PIVOTE_ESTUDIANTE_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>85FDE127-53C6-BF11-D469-65FFB06B731B</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<referredTableLongName>ESTUDIANTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AC510A3D-DA9F-A93E-C9F0-03B6BBFF4931</referredTableID>
+<keyObject>79C1BC78-49C7-26D0-4CAF-BCE6B97A2874</keyObject>
+<referredKeyID>79C1BC78-49C7-26D0-4CAF-BCE6B97A2874</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,11 @@
+Pregunta 1: Conocer el número de evaluaciones por curso?
+
+select c.nombre,count(t.id_test) from curso C
+inner join test T on(c.id_curso = t.curso_id_curso)
+group by c.nombre
+
+Pregunta 2: Conocer los cursos sin evaluaciones?
+
+select c.nombre,count(t.id_test) from curso C
+inner join test T on(c.id_curso = t.curso_id_curso) where t.curso_id_curso is null
+group by c.nombre

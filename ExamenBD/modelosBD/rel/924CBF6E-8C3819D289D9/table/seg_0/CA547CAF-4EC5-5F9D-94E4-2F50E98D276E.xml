@@ -1,0 +1,168 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA547CAF-4EC5-5F9D-94E4-2F50E98D276E" name="PIVOTE">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>F06DDE06-F1C5-25F5-FB30-DA01FC518651</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pivote" id="49196D6B-27CF-2492-EF88-99E35A775D53">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>0CF09750-4842-3DF5-9C13-A76456B0E9B6</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opcion1" id="5CDDE5D2-A12F-39EB-DFD1-622C9B453CA8">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>C9815F98-930A-00C6-4991-DC38A2CC9482</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opcion2" id="01E9EB05-5899-C794-F639-71D73938290B">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>F34FDAF8-6A40-579D-59B7-40A269B88965</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opcion3" id="5169E2D4-AAFE-2970-A2A0-453189110CA2">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>6E347CAE-7D3A-384E-59E9-FE344930628A</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="opcion4" id="3B2D6C66-0BF0-0A40-7993-0D92BDD1165B">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>DA587F61-B055-A714-F7F8-E15CF32AE4AF</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTUDIANTE_rut" id="C6641411-2100-C058-96E4-9E80E073A67E">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>EFB620B7-2310-08F7-E029-F7195FF77906</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E353155C-FD79-95A2-8530-146A11D5558F" referredColumn="3D205731-27B5-CA8A-22A6-D8EA17FAEEE3"/>
+</associations>
+</Column>
+<Column name="PREGUNTAS_id_pregunta" id="6D2BF123-510F-C0F8-16EA-209E989A7D5A">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>D7D14930-0953-BB2B-BD84-1F3392720E20</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEC21046-0AFE-4ED6-A692-3A1177634F6D" referredColumn="E4EA1266-285A-1C2A-6352-2D5007E4A51C"/>
+</associations>
+</Column>
+<Column name="TEST_id_test" id="0B615C41-2BAD-3785-64E4-CD8F536FAF4F">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>2CAF2E75-E797-7594-9E73-C6A8A621F8EE</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D48171AB-75DA-9337-5454-718763A2DC58" referredColumn="C49229E0-CCE0-EFFB-B944-FECEC241D450"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84E77082-10A7-1D2B-E509-635EBE1E4654" name="PIVOTE_PK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>40CBBEC8-1EC6-A25C-3435-F07834998E7B</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49196D6B-27CF-2492-EF88-99E35A775D53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11E51BC2-4267-0450-63DA-0149ECBE8B71" name="PIVOTE_ESTUDIANTE_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>85FDE127-53C6-BF11-D469-65FFB06B731B</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6641411-2100-C058-96E4-9E80E073A67E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2352EE3D-B741-C7F0-10CE-3AA7C8DE0840" name="PIVOTE_PREGUNTAS_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>8F570813-40C0-C780-DF5C-E624D3F0D33C</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D2BF123-510F-C0F8-16EA-209E989A7D5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5545E4D8-2F9D-7CDF-3103-3EFD7ECA2DE9" name="PIVOTE_TEST_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>F933D8F9-DE86-80CE-88E9-CA5F1856556E</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B615C41-2BAD-3785-64E4-CD8F536FAF4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

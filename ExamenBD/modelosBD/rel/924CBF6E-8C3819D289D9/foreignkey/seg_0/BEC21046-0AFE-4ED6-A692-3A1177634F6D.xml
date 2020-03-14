@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BEC21046-0AFE-4ED6-A692-3A1177634F6D" containerWithKeyObject="CA547CAF-4EC5-5F9D-94E4-2F50E98D276E" localFKIndex="2352EE3D-B741-C7F0-10CE-3AA7C8DE0840" name="PIVOTE_PREGUNTAS_FK">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-14 01:22:03 UTC</createdTime>
+<generatorID>8F570813-40C0-C780-DF5C-E624D3F0D33C</generatorID>
+<ownerDesignName>modelosBD</ownerDesignName>
+<referredTableLongName>PREGUNTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B155804B-5166-0E50-762F-6CF432D24730</referredTableID>
+<keyObject>B5CE2053-8D0B-B0B5-D59F-C31A87794003</keyObject>
+<referredKeyID>B5CE2053-8D0B-B0B5-D59F-C31A87794003</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_pregunta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
